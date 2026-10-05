@@ -135,6 +135,3 @@ https://www.saucedemo.com/
 
 The goal of this project is to build practical QA Automation skills and gradually develop a clean and maintainable Playwright test framework using the Page Object Model.
 ```
-
-Я бы именно такой и залил сейчас. Он не пытается притворяться enterprise-фреймворком, но уже показывает, что ты умеешь:
-**POM, fixtures, parametrization, позитивные/негативные кейсы и E2E checkout flow.**
