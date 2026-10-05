@@ -1,5 +1,3 @@
-Конечно. Я бы сделал README простым, но уже так, чтобы репозиторий выглядел как нормальный учебно-практический QA Automation проект.
-
 ```markdown id="02yn2v"
 # Playwright QA Automation
 
