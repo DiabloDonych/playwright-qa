@@ -3,15 +3,9 @@ from pages.login_page import LoginPage
 from pages.inventory_page import InventoryPage
 
 
-def test_add_to_cart(page: Page):
-    
-    login_page = LoginPage(page)
-    inventory_page = InventoryPage(page)
+def test_add_to_cart(inventory: InventoryPage):
 
-    login_page.open()
-    login_page.login("standard_user", "secret_sauce")
+    inventory.check_cards_info()
 
-    inventory_page.check_cards_info
-
-    inventory_page.expect_opened()
-    inventory_page.add_product_to_cart("Sauce Labs Backpack")
+    inventory.expect_opened()
+    inventory.add_product_to_cart("Sauce Labs Backpack")
